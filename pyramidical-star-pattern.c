@@ -4,23 +4,20 @@
 int main()
 {
 
-    int c, i, k, n;
+    int i, j, k, n;
 
-    printf("Enter the no. of lines you want to print : ");
+    printf("Enter n : ");
     scanf("%d", &n);
-    c = n;
 
-    for (; n > 0; n--)
+    for (i = 1; i <= n; i++)
     {
-        for (i = 1; i < n; i++)
+        for (j = i; j < n; j++)
         {
             printf(" ");
         }
-        k = (1 + c) - n;
-        while (k)
+        for (k = i; k > 0; k--)
         {
             printf("* ");
-            k--;
         }
         printf("\n");
     }
