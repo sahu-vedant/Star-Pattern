@@ -6,7 +6,7 @@ int main()
 
     int i, j, k, n;
 
-    printf("Enter n : ");
+    printf("Enter the no. of lines you want to print : ");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++)
