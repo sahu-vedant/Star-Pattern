@@ -1,4 +1,7 @@
 // I am Vedant Sahu, owner of this program, got it?
+
+// <<<<<------------------------ INVERTED PYRAMIDICAL STAR PATTERN ------------------------------>>>>>
+
 #include <stdio.h>
 
 int main()
